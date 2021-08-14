@@ -24,7 +24,8 @@ profile
 # NB: NIB/XIB files still exist even on Storyboard projects, so we want this...
 
 *~.nib
-
+*.xcodeproj/
+DerivedData/
 
 ####
 # Xcode build files -
@@ -58,7 +59,7 @@ build/
 !default.mode1v3
 !default.mode2v3
 !default.perspectivev3
-*.xcodeproj
+**/*.xcodeproj
 
 ####
 # Xcode 4 - semi-personal settings, often included in workspaces
